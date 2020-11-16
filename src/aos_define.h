@@ -25,15 +25,17 @@
 # define AOS_CPP_END
 #endif
 
-typedef enum {
-    HTTP_GET,
-    HTTP_HEAD,
-    HTTP_PUT,
-    HTTP_POST,
-    HTTP_DELETE
+typedef enum
+{
+    AOSE_HTTP_GET,
+    AOSE_HTTP_HEAD,
+    AOSE_HTTP_PUT,
+    AOSE_HTTP_POST,
+    AOSE_HTTP_DELETE
 } http_method_e;
 
-typedef enum {
+typedef enum
+{
     AOSE_OK = 0,
     AOSE_OUT_MEMORY = -1000,
     AOSE_OVER_MEMORY = -999,
